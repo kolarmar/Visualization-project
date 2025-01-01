@@ -7,6 +7,8 @@ import plotly.graph_objects as go
 
 app = Dash(__name__)
 
+server = app.server
+
 # ------------------------------ IMPORTING DATA -------------------------------
 GEOJSON = None
 COUNTRIES = None
