@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  color: "#c5daeb";
+}
+
+body {
+    margin: 0;
+  }
+
+.rc-slider-handle {
+    background-color: purple;
+    border: 2px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    margin-top: -7px;
+}
+
+.rc-slider-dot {
+    display: none;
+}
+
+.rc-slider-rail {
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    margin-top: -3px;
+}
+
+.rc-slider-mark-text {
+    color: "#c5daeb";
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.rc-slider-mark-text-active {
+    color: white;
+}
+
+/* Change the hover effect on the handle */
+.rc-slider-handle:hover {
+    border-color: #ffcc00; /* Optional: Change border color on hover */
+}
+
+/* Change the active handle color when dragging */
+.rc-slider-handle:active {
+    background-color: #ffcc00; /* Optional: Change color when dragging */
+}
