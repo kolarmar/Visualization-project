@@ -208,10 +208,14 @@ app.layout = html.Div(
                 },
                     children=[
                     html.Span("The map below shows new Covid-19 infections per \
-                            country per milion people. Click on the map to select \
-                            countries and their statistics along with linechart \
-                            will be dispayed. Filter the line chart by clicking \
-                            on the legend. Change the date on the timeline on the bottom."
+                            country per milion people per month. Use the dropdown on the left \
+                            to switch the map to absolute deaths per country per month or new \
+                            vaccinations per country per million people per month. Click on the \
+                            map to select countries and their statistics along with \
+                            line chart will be dispayed. Multiple countries can be \
+                            selected. Click on the selected country again to deselect \
+                            it. Filter the line chart by clicking on the legend. \
+                            Change the date on the timeline on the bottom."
                             ),
                     html.Br(),
                     html.Span("The data ranges from January 2020 until December 2023. \
@@ -221,8 +225,7 @@ app.layout = html.Div(
                     html.Span("and "),
                     html.A("here.", href="https://ourworldindata.org/covid-vaccinations"),
                     html.Br(),
-                    html.Span("Missing data were filled with zeroes, \
-                              a lot of vaccination data were missing.")
+                    html.Span("Missing data were filled with zeroes.")
                 ]),
             
         ]),
