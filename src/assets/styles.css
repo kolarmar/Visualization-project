@@ -38,12 +38,10 @@ body {
     color: white;
 }
 
-/* Change the hover effect on the handle */
 .rc-slider-handle:hover {
-    border-color: #ffcc00; /* Optional: Change border color on hover */
+    border-color: #ffcc00;
 }
 
-/* Change the active handle color when dragging */
 .rc-slider-handle:active {
-    background-color: #ffcc00; /* Optional: Change color when dragging */
+    background-color: #ffcc00;
 }
